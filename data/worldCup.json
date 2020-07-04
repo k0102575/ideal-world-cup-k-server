@@ -1,0 +1,16 @@
+{
+  "worldCups": [
+    {
+      "id": "123",
+      "name": "음식 월드컵",
+      "description": "2일 굶고서 이거는 먹어야한다! 하는 음식을 고르세요!",
+      "img": "sam.jpeg"
+    },
+    {
+      "id": "124",
+      "name": "여자 배우 월드컵",
+      "description": "여자 배우 월드컵!",
+      "img": "han.jpg"
+    }
+  ]
+}
