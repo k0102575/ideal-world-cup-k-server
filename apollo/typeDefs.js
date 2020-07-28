@@ -2,10 +2,15 @@ import { gql } from 'apollo-server-express';
 
 const typeDefs = gql`
   type Query {
-    worldCups: [worldCups]
+    worldCups: [worldCup]
+    worldCup(id: Int!): worldCup
   }
 
-  type worldCups {
+  type Mutation {
+    create_worldcup(id: Int!, name: String!, description: String!): Boolean
+  }
+
+  type worldCup {
     id: String
     name: String
     description: String
